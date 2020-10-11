@@ -11,11 +11,18 @@ triple x = x * 3
 
 main = 
     -- infix style
+    print "infix"
 
-    10 `div` 4
+    -- 10 `div` 4
     -- normal
-    10 / 4
+    -- 10 / 4
 
     -- infix operators in prefix fashion
 
-    (+) 100 100
+    -- (+) 100 100
+
+
+-- $ sign test
+
+dollarSign = do
+    (2^) $ (*30) $ 2 + 2
