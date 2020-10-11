@@ -1,6 +1,6 @@
 module Test where
 
-
+-- seeing let vs where
 one = do
     let x = 5 in x
 
